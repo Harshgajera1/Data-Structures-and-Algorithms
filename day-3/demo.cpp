@@ -7,7 +7,7 @@ int main() {
     value = cin.get();
 
     if(48 <= value && 57 >= value){
-        cout << "This is number" << endl;
+        cout << "This is numeric" << endl;
     }
     else if(97 <= value && value <= 122){
         cout << "This is lowercase" << endl;
