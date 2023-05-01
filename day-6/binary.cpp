@@ -35,6 +35,7 @@ int main(){
         if(digit == 1){
             // with 2 to multiply beacuse decimal to binary we do */2.
             ans = ans + pow(2,i);
+            // cout << ans << endl;
         }
 
         i++;
