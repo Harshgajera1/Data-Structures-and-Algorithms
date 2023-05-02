@@ -3,6 +3,7 @@
 using namespace std;
 
 int main () {
+    // ------------- reverse value -------------
     int n,sum=0,i=0;
     cout << "Enter value : ";
     cin >> n;
