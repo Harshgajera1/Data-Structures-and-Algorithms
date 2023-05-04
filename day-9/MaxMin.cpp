@@ -2,27 +2,31 @@
 using namespace std;
 
 int getMin (int num[],int n) {
-    int min = INT32_MAX;
+    int mini = INT32_MAX;
 
     for(int i=0;i<n;i++){
-        if(num[i] < min){
-            min = num[i];
-        }
+
+        mini = min(mini,num[i]);
+        // if(num[i] < mini){
+        //     mini = num[i];
+        // }
     }
 
-    return min;
+    return mini;
 }
 
 int getMax (int num[],int n) {
-    int max = INT32_MIN;
+    int maxi = INT32_MIN;
 
     for(int i=0;i<n;i++){
-        if(num[i]>max){
-            max = num[i];
-        }
+
+        maxi = max(maxi,num[i]);
+        // if(num[i]>maxi){
+        //     max = num[i];
+        // }
     }
 
-    return max;
+    return maxi;
 }
 
 int main () {
