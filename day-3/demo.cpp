@@ -13,5 +13,7 @@ int main() {
         cout << "This is lowercase" << endl;
     }else if(65 <= value && value <= 90){
         cout << "This is Uppercase" << endl;
+    }else {
+        cout << "Symbol value";
     }
 }

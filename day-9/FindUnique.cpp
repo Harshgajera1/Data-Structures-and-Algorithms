@@ -57,7 +57,6 @@ int main () {
     // int arr2[5] = {2,4,1,3,2};
     // cout << findDuplicate(arr2,5);
 }
-\
 
 
 // class Solution {
