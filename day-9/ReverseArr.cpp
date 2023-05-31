@@ -35,11 +35,11 @@ int main() {
     int arr[10] = {2,32,3,54,-32,3,-56,-23,32,8};
     int arr2[5] = {-321,43,897,2,-87};
 
-    reverse(arr,10);
-    reverse(arr2,5);
+    // reverse(arr,10);
+    // reverse(arr2,5);
 
-    // swapAlternate(arr,10);
-    // swapAlternate(arr2,5);
+    swapAlternate(arr,10);
+    swapAlternate(arr2,5);
 
     print(arr,10);
     print(arr2,5);
