@@ -100,13 +100,13 @@ int main() {
     // }
 
     // ----------- 7 -------------
-    // int n,row=1;
+    // int n,row=0;
     // cin >> n;
-    // while (row <= n)
+    // while (row < n)
     // {
-    //     int col = 1;
-    //     while(col <=n){
-    //         char value = 'A'+row-1 ;
+    //     int col = 0;
+    //     while(col <n){
+    //         char value = 'A'+row ;
     //         cout << value;
     //         col++;
     //     }
@@ -422,48 +422,48 @@ int main() {
     
 
     // ------------- 23 -------------
-    int n,row=1;
-    cin >> n;
-    while (row<=n)
-    {
-        int col1 = 1;
-        while (col1<=n-row+1)
-        {
-            cout << col1 << " ";
-            col1++;
-        }
-        // ============= logic 1 =================
-        // int space1 = row - 1;
-        // while (space1)
-        // { 
-        //     cout << "  ";
-        //     space1--;
-        // }
-        // int space2 = row - 1;
-        // while (space2)
-        // {
-        //     cout << "  ";
-        //     space2--;
-        // }
+    // int n,row=1;
+    // cin >> n;
+    // while (row<=n)
+    // {
+    //     int col1 = 1;
+    //     while (col1<=n-row+1)
+    //     {
+    //         cout << col1 << " ";
+    //         col1++;
+    //     }
+    //     // ============= logic 1 =================
+    //     // int space1 = row - 1;
+    //     // while (space1)
+    //     // { 
+    //     //     cout << "  ";
+    //     //     space1--;
+    //     // }
+    //     // int space2 = row - 1;
+    //     // while (space2)
+    //     // {
+    //     //     cout << "  ";
+    //     //     space2--;
+    //     // }
 
-        // ============= logic 1 =================
-        int space = (row-1)*2;
-        while (space)
-        {
-            cout << "  ";
-            space--;
-        }
+    //     // ============= logic 2 =================
+    //     int space = (row-1)*2;
+    //     while (space)
+    //     {
+    //         cout << "  ";
+    //         space--;
+    //     }
         
-        int col2 =1;
-        while (col2<=n-row+1)
-        {
-            cout << n - col2 + 1 << " ";
-            col2++;
-        }
+    //     int col2 =1;
+    //     while (col2<=n-row+1)
+    //     {
+    //         cout << n - col2 + 1 << " ";
+    //         col2++;
+    //     }
 
-        cout << endl;
-        row++;
-    }
+    //     cout << endl;
+    //     row++;
+    // }
     
     
 }

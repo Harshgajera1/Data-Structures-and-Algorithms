@@ -35,7 +35,7 @@ int main() {
     int n,value = 2,prime = 0,notPrime = 0;
 
     cin >> n;
-    while(value < n){
+    while(value <= n){
         if(n%value == 0){
             notPrime +=1;
             cout << "Not Prime number " << value << endl;
