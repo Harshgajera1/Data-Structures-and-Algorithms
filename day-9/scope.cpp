@@ -6,7 +6,7 @@ void update(int arr[],int n) {
 
     arr[0] = 43;
 
-    for(int i=0;i<3;i++){
+    for(int i=0;i<n;i++){
         cout << arr[i] << "  ";
     }
 

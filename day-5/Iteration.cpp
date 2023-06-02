@@ -52,20 +52,20 @@ int main() {
     // }
 
     // --------------------------------
-    int n;
-    cout << "Enter Product value : " ;
-    cin >> n;
-    // cout << n/10 << endl;
-    // cout << n%10 << endl;
-    int product = 1;
-    int sum = 0;
-    while(n!=0){
-        int digit = n%10;
-        cout << digit << endl;
-        product *= digit;
-        sum += digit; 
-        n = n/10;
-    }
-    int ans = product - sum;
-    cout << ans;
+    // int n;
+    // cout << "Enter Product value : " ;
+    // cin >> n;
+    // // cout << n/10 << endl;
+    // // cout << n%10 << endl;
+    // int product = 1;
+    // int sum = 0;
+    // while(n!=0){
+    //     int digit = n%10;
+    //     cout << digit << endl;
+    //     product *= digit;
+    //     sum += digit; 
+    //     n = n/10;
+    // }
+    // int ans = product - sum;
+    // cout << ans;
 }

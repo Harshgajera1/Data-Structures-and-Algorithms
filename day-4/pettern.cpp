@@ -194,26 +194,26 @@ int main() {
     // }
 
     // ----------- 13 ------------
-    // int n,row =1;
-    // cin >> n;
-    // while (row<=n)
-    // {
-    //     int col = 1;
-    //     char temp = 'A' + n - row;
-    //     while (col<=row)
-    //     {
-    //         // ========= logic 1 ============
-    //         // char ch = 'A' + row + col - 2;
-    //         // cout << ch << " ";
-    //         // ========= logic 2 ============
-    //         char ch = 'A' + n - row + col -1;
-    //         cout << temp << " ";
-    //         temp++;
-    //         col++;
-    //     }
-    //     cout << endl;
-    //     row++;
-    // }
+    int n,row =1;
+    cin >> n;
+    while (row<=n)
+    {
+        int col = 1;
+        char temp = 'A' + n - row;
+        while (col<=row)
+        {
+            // ========= logic 1 ============
+            // char ch = 'A' + row + col - 2;
+            // cout << ch << " ";
+            // ========= logic 2 ============
+            char ch = 'A' + n - row + col -1;
+            cout << temp << " ";
+            temp++;
+            col++;
+        }
+        cout << endl;
+        row++;
+    }
     
     // ---------------- 14 ---------------
     // int n,row=1;
