@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void printArray(char arr[],int size){
+void printArray(int arr[],int size){
     for(int i=0;i<size;i++){
         cout << arr[i] << " ";
     }
@@ -14,6 +14,52 @@ int sumArray(int arr[],int size){
         i++;
     }
     return sum;
+}
+
+int swapArr(int arr[],int size){
+    for(int i=0;i<=size-i-1;i++){
+        // built in function
+        // swap(arr[i],arr[size-i-1]);
+        
+        // manual function
+        int temp = arr[i];
+        arr[i] = arr[size-i-1];
+        arr[size-i-1] = temp;
+    }   
+}
+
+int reverse (int arr[],int size) {
+    int start = 0;
+    int end = size-1;
+    while (start <= end){
+        // swap(arr[start],arr[end]);
+
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+
+        start++;
+        end--;
+    }
+}
+
+int alternateElement(int arr[],int size){
+    for (int i = 0; i < size; i+=2){
+        swap(arr[i],arr[i+1]);
+    }
+    
+}
+
+int power(){
+    int num,p,ans=1;
+    cout << "Enter value : ";
+    cin >> num;
+    cout << "Enter power : ";
+    cin >> p;
+    for(int i=0;i<p;i++){
+        ans *= num;
+    }
+    return ans;
 }
 
 int main() {
@@ -85,13 +131,20 @@ int main() {
     // char second[4] = {'A','b'};
     // printArray(second,4);
 
-    int getArr[34],size;
-    cout << "Enter array size : ";
-    cin >> size;
+    // int getArr[34],size;
+    // cout << "Enter array size : ";
+    // cin >> size;
 
-    for(int i =0;i<size; i++){
-        cin >> getArr[i];
-    }
+    // for(int i =0;i<size; i++){
+    //     cin >> getArr[i];
+    // }
 
-    cout << "Sum Of Array " << sumArray(getArr,size);
+    // cout << "Sum Of Array " << sumArray(getArr,size);
+
+    int arr[10] = {432,2,32,-43,32,31,43,41,-234,45};
+    // swapArr(arr,10);
+    // reverse(arr,10);
+    alternateElement(arr,10);
+    printArray(arr,10);
+    cout << power();
 }

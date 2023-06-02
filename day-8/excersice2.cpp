@@ -35,21 +35,21 @@ int main () {
     // cout << "AP is " << AP();
 
     // --------------- hw_2 --------------------
-    // int a,b;
-    // cout << "Enter a value : ";
-    // cin >> a;
-    // cout << "Enter b value : ";
-    // cin >> b;
+    int a,b;
+    cout << "Enter a value : ";
+    cin >> a;
+    cout << "Enter b value : ";
+    cin >> b;
 
-    // cout << "Bit is " << setBit(a) + setBit(b);
+    cout << "Bit is " << setBit(a) + setBit(b);
 
 
     // --------------- hw_3 --------------------
-    int n;
-    cout << "Enter number : ";
-    cin >> n;
+    // int n;
+    // cout << "Enter number : ";
+    // cin >> n;
 
-    cout << fibonacci(n);
+    // cout << fibonacci(n);
 
 
 
