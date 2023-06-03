@@ -45,7 +45,7 @@ int reverse (int arr[],int size) {
 
 int alternateElement(int arr[],int size){
     for (int i = 0; i < size; i+=2){
-        swap(arr[i],arr[i+1]);
+        if(i+1 < size) swap(arr[i],arr[i+1]);
     }
     
 }
@@ -141,10 +141,11 @@ int main() {
 
     // cout << "Sum Of Array " << sumArray(getArr,size);
 
-    int arr[10] = {432,2,32,-43,32,31,43,41,-234,45};
-    // swapArr(arr,10);
+    int arr[9] = {432,2,32,-43,32,31,43,41,-234};
+    // swapArr(arr,9);
     // reverse(arr,10);
-    alternateElement(arr,10);
-    printArray(arr,10);
-    cout << power();
+    alternateElement(arr,9);
+    printArray(arr,9);
+    // cout << power();
+
 }
