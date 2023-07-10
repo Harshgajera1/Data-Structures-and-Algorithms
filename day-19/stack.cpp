@@ -10,6 +10,7 @@ int main () {
     s.push("coder");
 
     cout << "Top element - " << s.top() << endl;
+    // coder remove
     s.pop();
 
     cout << "Top element - " << s.top() << endl;
