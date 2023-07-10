@@ -28,7 +28,19 @@ int main() {
     }
     cout << endl;
 
-    cout << "8 is present " << s.count(8) << endl;
+    int n = 23;
 
+    // count
+    cout << n << " is present " << s.count(n) << endl;
+
+    // find
+    set<int>::iterator itr = s.find(23);
+
+    cout << "value present -- " << *itr << endl;
+
+    for(auto it = itr;it != s.end();it++){
+        cout << *it << " ";
+    }
+    cout << endl;
 
 }
