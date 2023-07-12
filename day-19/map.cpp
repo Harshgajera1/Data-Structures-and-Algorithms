@@ -17,7 +17,7 @@ int main() {
     }
     cout << endl;
 
-    int n = 4;
+    int n = 2;
     cout << n << " is present " << m.count(n) << endl;
 
     m.erase(4);

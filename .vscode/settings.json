@@ -1,10 +1,13 @@
 {
     "files.associations": {
+        "*.cpp": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
         "cmath": "cpp",
         "array": "cpp",
         "initializer_list": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp"
     }
 }
