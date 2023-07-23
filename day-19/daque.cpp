@@ -23,7 +23,7 @@ int main(){
         cout << i << " ";
     }
     cout << endl << endl;
-
+    // cout << d.size();
     d.erase(d.begin(),d.begin()+1);
 
     cout << "Empty or not " << d.empty();

@@ -12,9 +12,10 @@ int main() {
     v.push_back(7);
     v.push_back(8);
 
-    cout << binary_search(v.begin(),v.end(),5) << endl;
-    cout << "lower bound - " <<  lower_bound(v.begin(),v.end(),5) - v.begin() << endl;
-    cout << "upper bound - " <<  upper_bound(v.begin(),v.end(),5) - v.begin() << endl;
+    int size = v.size();
+    cout << binary_search(v.begin(),v.end(),size) << endl;
+    cout << "lower bound - " <<  lower_bound(v.begin(),v.end(),size) - v.begin() << endl;
+    cout << "upper bound - " <<  upper_bound(v.begin(),v.end(),size) - v.begin() << endl;
 
     int a = 7;
     int b = 9;
