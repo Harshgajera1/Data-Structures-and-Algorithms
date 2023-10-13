@@ -10,11 +10,11 @@ int main() {
     // cout << " a^b " << (a^b) <<  endl; 
 
     // ---------- left shift & right shift operator -------right (a>>b) = a/(b*2)  || left (a<<b) = a*(b*2)
-    cout << (3534>>2) << endl;
+    cout << (3534>>1) << endl;
     // cout << (7>>2) << endl;
     // cout << (6>>1) << endl;
     // cout << (18>>1) << endl;
-    cout << (32<<4) << endl;
+    cout << (32<<2) << endl;
 
     // cout << (16<<3) << endl;
     // cout << (21<<2) << endl;

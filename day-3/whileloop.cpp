@@ -46,7 +46,7 @@ int main() {
         }
         value += 1;
     }
-    cout << "Prime values are : " << prime << endl;
+    cout << endl << "Prime values are : " << prime << endl;
     cout << "Not prime values are : " << notPrime << endl;
 
 
