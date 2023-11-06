@@ -39,5 +39,5 @@ int main() {
 
     cout << endl << "After reverse " << endl;
     vector<int> ans = reverse(v,2);
-    print(ans);
+    // print(ans);
 }
